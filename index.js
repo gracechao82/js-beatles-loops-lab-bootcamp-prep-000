@@ -25,7 +25,7 @@ function iLoveTheBeatles (number){
   var sentence = []
   var i = 1
   do {
-  sentence[i] = "I love the Beatles!"
+  sentence[i-1] = "I love the Beatles!"
   i++
   } while (i < number)
   
