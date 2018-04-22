@@ -22,12 +22,18 @@ return facts
 }
 
 function iLoveTheBeatles (number){
+  if number < 18 {
+  
   var sentence = []
   var i = 0
   do {
   sentence[i] = "I love the Beatles!"
   i++
-  } while (i <= number)
+  } while (i <= number)}
+  
+  Else {
+    sentence ="I love the Beatles!"
+  }
   
   return sentence
   
