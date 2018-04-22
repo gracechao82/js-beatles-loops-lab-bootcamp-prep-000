@@ -23,11 +23,12 @@ return facts
 
 function iLoveTheBeatles (number){
   var sentence = []
+  number = number - 1
   var i = 0
   do {
   sentence[i] = "I love the Beatles!"
   i++
-  } while (i < (number -1))
+  } while (i < number)
   
   return sentence
   
