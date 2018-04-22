@@ -32,6 +32,7 @@ function iLoveTheBeatles (number){
   } while (i <= number)}
   
   else {
+   var sentence = []
    sentence[0] = "I love the Beatles!"
   }
   
