@@ -23,7 +23,6 @@ return facts
 
 function iLoveTheBeatles (number){
   var sentence = []
-  number = number - 1
   var i = 0
   do {
   sentence[i] = "I love the Beatles!"
