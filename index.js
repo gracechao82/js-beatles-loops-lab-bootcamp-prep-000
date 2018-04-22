@@ -32,7 +32,7 @@ function iLoveTheBeatles (number){
   } while (i <= number)}
   
   else {
-   sentence = "I love the Beatles!"
+   sentence[0] = "I love the Beatles!"
   }
   
   return sentence
