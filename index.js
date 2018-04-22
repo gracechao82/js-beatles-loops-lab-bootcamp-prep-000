@@ -21,3 +21,13 @@ while (i < facts.length){
 return facts
 }
 
+function iLoveTheBeatles (number){
+  sentence = []
+  let i = 0
+  do {
+  sentence[i] = "I love the Beatles!"
+  i++
+  } while (i < number)
+  
+  
+}
