@@ -22,8 +22,8 @@ return facts
 }
 
 function iLoveTheBeatles (number){
-  sentence = []
-  let i = 1
+  var sentence = []
+  var i = 1
   do {
   sentence[i] = "I love the Beatles!"
   i++
