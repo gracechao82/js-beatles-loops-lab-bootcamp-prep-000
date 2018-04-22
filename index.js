@@ -32,7 +32,7 @@ function iLoveTheBeatles (number){
   } while (i <= number)}
   
   else {
-   const sentence = "I love the Beatles!"
+   sentence = "I love the Beatles!"
   }
   
   return sentence
